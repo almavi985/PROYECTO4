@@ -1,0 +1,84 @@
+#inf{
+    margin:0 auto;
+    width: 100%;
+}
+
+#res{
+    color: rebeccapurple;
+    background: rgb(56, 204, 184);
+    padding: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#menu{
+    background-color: saddlebrown;
+    float:right;
+    text-align: center;
+    height: 250px;
+    padding: 5px;
+    width: 70%;
+    font-size: 26px;
+
+}
+
+#menu li{
+    font-style: italic;
+
+}
+
+#formu{
+    
+    background-color: rgb(136, 146, 78);
+    float:left;
+    text-align: center;
+    height: 250px;
+    padding: 5px;
+    width: 30%;
+    font-size:20px;
+}
+
+#main{
+    width: 80%;
+    height:200px;
+    margin: 50px auto 0 auto;
+    display: block;
+
+}
+
+#msj{
+    width:55%;
+    height: 35px;
+}
+.tit {
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(55, 89, 200);
+    
+}
+
+.tit h2{
+    color: crimson;
+    font-weight: normal;
+    font-family:fantasy;
+    text-decoration: darkmagenta;
+    text-transform: uppercase;
+}
+
+#contacto{
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    display:contents;
+}
+
+button{
+    color:darkorchid;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+}

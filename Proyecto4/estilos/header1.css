@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: url('../img/comi.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #dddaec;
+    padding: 1rem 0;
+}
+header a{
+    text-decoration: none;
+    color: #2213A8;
+}
+
+.container-flex{
+    max-width: 90%;
+    margin:0 auto;
+
+}
+.container-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background:#1ACF98;
+    padding: 40px;
+    text-align: center;
+}
+
+.container-menu h2{
+    color: midnightblue;
+    font-style: oblique;
+}
+.nav-menu ul li{
+    display: inline;
+    list-style: none;
+    padding:0 1rem;
+}
+.container-hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container-hero h1{
+    font-size: 3.5rem;
+    color: yellow;
+}
+.container-hero sub{
+    font-size: 1.5rem;
+    margin-top:1.5rem;
+    color: thistle;
+}
+
+.container-hero h2{
+    color:turquoise;
+}
+
+.btn{
+    border: 1px solid #b5b1ca;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    margin-top:1.5rem;
+}
+
+
+/*responsive*/
+
+@media (min-width:240px) and (max-width:720px){
+    header .logo{
+        display:none;
+    }
+    .container-menu{
+        justify-content: center;
+    }
+    .container-hero{
+        height: 90vh;
+    }
+    .container-hero h1{
+        font-size: 2.5rem;
+    }
+    .container-hero sub{
+        font-size: 1rem;
+    }
+    
+}

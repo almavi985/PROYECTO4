@@ -1,0 +1,32 @@
+body{  
+    margin: 0;
+    padding: 10px;
+    border: 10px;
+}
+
+.footer{
+
+    background-color: cadetblue;
+    padding: 2rem;
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+    color: rgb(56, 46, 38);
+}
+
+.f{
+    display:table;
+    justify-content:space-between;
+    list-style:circle;
+}
+
+.cont{
+    display:contents;
+    float: none !important;
+    text-align: center;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 50%;
+    margin-top: 50%;
+    bottom: 0;
+}
