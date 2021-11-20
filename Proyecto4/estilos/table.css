@@ -1,19 +1,28 @@
 table{
     table-layout:auto;
     width: 50%;
-    border-collapse:separate;
-    border: 5px solid rgb(112, 96, 102);
+    border-collapse:collapse;
+    border: 5px solid rgb(53, 42, 42);
     border: "2";
+
 }
 th,td{
     padding: 20px;
 }
+th{
+    text-align: center;
+}
 
 
-.tabl{
+.tabla{
     width: 80%;
     height: 250px;
     margin: 50px auto 0 auto;
-    display: block;
+
+}
+
+.ima{
+    width:50%;
+    height:50%;
 }
 

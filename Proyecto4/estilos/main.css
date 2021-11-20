@@ -13,28 +13,31 @@
 
 #menu{
     background-color: saddlebrown;
-    float:right;
     text-align: center;
-    height: 250px;
     padding: 5px;
-    width: 70%;
-    font-size: 26px;
+    width:700px;
+    height:450px;
+    float: right;
 
 }
 
-#menu li{
-    font-style: italic;
+#menu p{
+    font-family: fantasy;
+    font-size: 25px;
 
 }
 
+#pat{
+    width:200px;
+    height:150px;
+}
 #formu{
     
     background-color: rgb(136, 146, 78);
-    float:left;
     text-align: center;
     height: 250px;
-    padding: 5px;
-    width: 30%;
+    padding: 10px;
+    width: 100%;
     font-size:20px;
 }
 
@@ -57,7 +60,21 @@
     text-shadow: 2px 2px 5px rgb(55, 89, 200);
     
 }
+#boton{
+    height:40px; 
+    width:100px; 
+    margin: 50px 60px; 
+    align-items: center;
+    text-align:center;
+    position:relative;
+    
+}
 
+#ubicacion{
+    width:600;
+     height:600;
+
+}
 .tit h2{
     color: crimson;
     font-weight: normal;
@@ -67,18 +84,75 @@
 }
 
 #contacto{
-    width: 50%;
+    width: 100%;
     height: 250px;
     margin: 0 auto;
     display:contents;
+    margin-right: auto;
 }
 
-button{
-    color:darkorchid;
+#boton{
+    color:black;
     background: transparent;
-    border: 2px solid #0099CC;
     border-radius: 6px;
-    font-size: 15px;
+    font-size: 10px;
     padding: 15px;
     cursor: pointer;
+    float:inline-start;
+}
+/*responsive*/
+@media (min-width:300px) and (max-width:800px){
+    main {
+        display:block;
+
+    }
+    table{/*Config para deslizar la tabla*/
+        max-width: 300px;
+        display: block;
+        overflow-x: auto;
+
+    }
+    #inf{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+#res{
+    max-width:280px;
+}
+    #menu{
+       max-width:330px;
+    }
+    #menu p{
+       font-size: .8rem; 
+    }
+
+    iframe {
+        max-width: 280px;
+        height: auto;
+       }
+    #formu{
+        max-width: 280px;
+        font-size: .5rem;
+        size-adjust: .5rem;
+        max-height: 280px;
+    }
+
+    input{
+        max-width: 300px;
+        font-size: .3rem;
+    }
+
+    #formu button{
+        max-width: 50px;
+        font-size: .3rem;
+        border: 1px solid #fff;
+        border-radius: 1.5px;
+        padding: 0.5rem .5rem;
+        margin-top:.5rem;
+        margin-left: .39rem;
+      }
+
+      footer{
+        max-width: 300px;
+      }
 }

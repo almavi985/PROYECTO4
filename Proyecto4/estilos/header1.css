@@ -12,15 +12,15 @@ html{
 header{
     width: 100%;
     height: auto;
-    background: url('../img/comi.jpg');
+    background:white;
     background-position: center;
     background-size: cover;
-    color: #dddaec;
     padding: 1rem 0;
+
 }
 header a{
     text-decoration: none;
-    color: #2213A8;
+    color:black;
 }
 
 .container-flex{
@@ -32,7 +32,7 @@ header a{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background:#1ACF98;
+    background:transparent;
     padding: 40px;
     text-align: center;
 }
@@ -42,42 +42,52 @@ header a{
     font-style: oblique;
 }
 .nav-menu ul li{
-    display: inline;
+    display:inline;
     list-style: none;
     padding:0 1rem;
 }
+
 .container-hero{
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background:url('../img/food.jpg');
 }
 .container-hero h1{
     font-size: 3.5rem;
-    color: yellow;
+    color:blanchedalmond;
+    text-align: center;
+
 }
 .container-hero sub{
     font-size: 1.5rem;
     margin-top:1.5rem;
-    color: thistle;
+    color:cornsilk;
 }
 
 .container-hero h2{
-    color:turquoise;
+    color:blue
 }
 
 .btn{
-    border: 1px solid #b5b1ca;
+    border: 1px solid brown;
     border-radius: 5px;
     padding: 0.5rem 2rem;
     margin-top:1.5rem;
+    float: left;
+}
+
+img{
+    width:150px;
+    text-align: center;
 }
 
 
 /*responsive*/
 
-@media (min-width:240px) and (max-width:720px){
+@media (min-width:300px) and (max-width:800px){
     header .logo{
         display:none;
     }
@@ -93,5 +103,12 @@ header a{
     .container-hero sub{
         font-size: 1rem;
     }
-    
+    .container-flex{
+        font-size: 1rem;
+    }
+    .nav-menu li{
+        float: left;
+    }
+
 }
+
