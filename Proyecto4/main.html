@@ -2,19 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/header1.css">
-    <!--realiza el ajuste del header -->
-    <link rel="stylesheet" href="./estilos/footer.css">
-    <!--Realiza la belleza del footer-->
-    <link rel="stylesheet" href="./estilos/table.css">
-    <link rel="stylesheet" href="./estilos/main.css">
-    <link rel="stylesheet" href="Funciones/boton.js">
-    <script src="Funciones/componente.js"></script>
+    <link rel="stylesheet" href="./estilos/header1.css"><!--realiza el ajuste del header -->
+    
+    <link rel="stylesheet" href="./estilos/footer.css"> <!--Realiza la belleza del footer-->
+   
+    <link rel="stylesheet" href="./estilos/table.css"><!--Ajuste de tabla-->
+    <link rel="stylesheet" href="./estilos/main.css"><!--Ajuste del cuerpo-->
     <title> Fonda "El antojito mexicano"</title>
-
     <style>
         A {
             text-decoration: none
@@ -28,7 +25,7 @@
     <header>
 
         <div class="container-flex container-menu">
-            <h2></h2>
+            <li><img src="./img/Fonda.png"></li>
             <nav class="nav-menu">
                 <ul>
                     <li><a href="#inf">Sobre nosotros</a></li>
@@ -36,6 +33,8 @@
                     <li><a href="#tabla">Menu</a></li>
                     <li>|</li>
                     <li><a href="#formu">Reservaciones</a></li>
+                    <li>|</li>
+                    <li><a href="./blog/blog.html">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +42,7 @@
             <h1>ʕ•́ᴥ•̀ʔっ♡Bienvenido a nuestro sitio </h1>
             <h1>Prueba nuestros deliciosos platillos </h1>
             <sub>Con un sabor tradicional</sub>
-            <a href="#tabla" class="btn">
+            <a href="#tabla" class="btn"><!--Ir al menu-->
                 <h2>Comenzar</h2>
             </a>
         </div>
@@ -54,83 +53,146 @@
 
         <div class="tit">
             <h2>Ven y conoce nuestros diferentes platillos </h2>
+            <h3>El placer del buen comer :3</h3>
+            <img src="./img/comi.png" id="ima">
         </div>
         <div id=tabla>
+<!--comieza la tabla-->
             <table style="margin:0 auto;">
+                <th>
+                    <h3>Comida corrida</h3><br>
+                    <h4>Menu</h4>
+                </th>
                 <tr>
-                    <td>Comida</td>
-                    <td>Precio</td>
+
+                    <td>Tacos<br>
+                        Orden normal.....$30 <br>
+                        Orden con extra.... $45 <br>
+                        <img src="img/taco.jpg">
+                    </td>
+                    <td>Enchiladas <br>
+                        Normal .....$40 <br>
+                        <img src="img/enchilada.jpg">
+                    </td>
+                    <td>Bebidas<br>
+                        Agua fresca .....$20<br>
+                        Refresco.......$25 <br>
+                        Jugos..... $20<br>
+                        <img src="img/bebida.jfif">
+                    </td>
                 </tr>
                 <tr>
-                    <td>Enchiladas</td>
-                    <td>$34</td>
+                    <td>
+                        Burritos <br>
+                        Normal....$30 <br>
+                        Mediano... $50 <br>
+                        Grande.... $60 <br>
+                        <img src="img/burrito.jpg">
+                    </td>
+                    <td>Cocktail <br>
+                        Normal.....$15 <br>
+                        Grande.....$20 <br>
+                        Con extra....$30 <br>
+                        <img src="img/fruta.jpg">
+                    </td>
+                    <td>
+                        Quesadillas <br>
+                        Orden.....$20 <br>
+                        Con extra...$30 <br>
+                        <img src="img/quesadilla.png">
+                    </td>
                 </tr>
                 <tr>
-                    <td>Mole</td>
-                    <td>$40</td>
+                    <td>Nachos <br>
+                        Orden.....$25 <br>
+                        Con extra....$30 <br>
+                        <img src="img/nachos.jpg">
+                    </td>
+                    <td>Pozole <br>
+                        Normal.....$30 <br>
+                        <img src="img/pozole.png">
+                    <td>Elotes <br>
+                        Normal.....$15 <br>
+                        Con extra....$25 <br>
+                        <img src="img/elote.png">
+                    <td>
+                    </td>
                 </tr>
-                <tr>
-                    <td>Pozole</td>
-                    <td>$39</td>
-                </tr>
+
             </table>
+
         </div>
 
 
-        <div id="inf">
+        <div id="inf"><!--Inf sobre el lugar-->
             <section id="contacto">
                 <div id="res">
-                    <p>Realiza tu reservacion ¡¡Ya!!</p>
-                </div>
-                <div id="menu">
-                    <ul>
-                        <p>Con tu informacion otorgada, nos ayudas comunicandonos a la brevedad contigo |>.<|< /p>
-                                <p>( ͡ᵔ ͜ʖ ͡ᵔ) Recibe descuentos con nuestras dinamicas ( ͡ᵔ ͜ʖ ͡ᵔ)</p>
-                                <p>Edo de Mexico</p>
-                                <p>Chicoloapan, MX 76842</p>
-                                <p>+52 4561234567</p>
-                                <p>reserva@antojitomex.com</p>
-                                <li>Gracias por su preferencia :)</li>
-                    </ul>
-                </div>
-            </section>
-            <!--Llenado de formulario-->
-            <div id="formu">
-                <h2>¡Reserva!</h2>
-                <form onsubmit="mifn()">
+                    <p>Conoce nuestra ubicacion y visitanos</p>
 
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="username" />
-                    <br>
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="useremail" />
-                    <br>
-                    <label for="tel"> Telefono: </label>
-                    <input type="number" id="tel" name="usertel" />
-                    <br>
-                    <label for="msj">Mensaje y comentarios</label>
-                    <input type="text" id="msj" name="usermsj" />
-                    <br>
-                    <input type="submit" value="Enviar">
-                </form>
+                </div>
+                <div id="conf">
+                    <div id="menu">
+                        <ul>
+                            <p>Con tu informacion otorgada, nos ayudas comunicandonos a la brevedad contigo |*.*| </p>
+                            <p>( ͡ᵔ ͜ʖ ͡ᵔ) Recibe descuentos con nuestras dinamicas ( ͡ᵔ ͜ʖ ͡ᵔ) </p>
+                            <p>Edo de Mexico</p>
+                            <p>Chicoloapan, MX 76842</p>
+                            <p>+52 4561234567</p>
+                            <p>reserva@antojitomex.com</p>
+                            <p>Gracias por su preferencia :)</p>
+                            <img src="img/pat.gif" alt="Patricio comiendo" id="pat">
+                        </ul>
+                    </div>
+            </section><!--codigo de mapa-->
+            <div id="ubicacion">
+                <hr>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60211.830448108216!2d-98.94187029321913!3d19.402059446697532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e16c6e78e345%3A0xc3aa005f3f354215!2sChicoloapan%20de%20Ju%C3%A1rez%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1637364250686!5m2!1ses-419!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-
+                </div>
+        </div>
+        <div id="res">
+            <p>Realiza tu reservacion ¡¡Ya!!</p>
+        </div>
+        <!--Llenado de formulario-->
+        <div id="formu">
+            <h2>¡Reserva con nosotros!</h2>
+            <form id="llenar">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="username" />
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="useremail" />
+                <br>
+                <label for="tel"> Telefono: </label>
+                <input type="number" id="tel" name="usertel" />
+                <br>
+                <label for="msj">Mensaje</label>
+                <input type="text" id="msj" name="usermsj" />
+                <br>
+                <button class="btn btn-primary" id="boton">Contactanos</button>
+            </form>
         </div>
 
+
+
+        <script src="Funciones/boton.js"></script>
+
     </main>
-    <!--Informacion del creador en footer-->
+   
     <footer>
         <div class="footer">
             <ul class="f">
                 <a href="#">
-                    <p>Dashboard</p><!--Regreso al header-->
+                    <p>Inicio</p><!--Regreso al header-->
+                    
                 </a>
                 <p>Ucamp</p>
-                
-                <a href="./blog/blog.html">Visita nuestor blog y calificanos</a>                
 
-            </ul>
-            <ul class="cont">
+            </ul><!--Informacion del creador en footer-->
+            <ul class="cont"> 
+                
                 <p>2021. TODOS LOS DERECHOS RESERVADOS @</p>
                 <p>----></p>
                 <p>Hernandez Oropeza Alma Viridiana</p>
