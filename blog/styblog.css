@@ -1,0 +1,115 @@
+html{
+  height: 80%;
+}
+
+body{
+  background-color:blanchedalmond;
+  max-width: 800px;
+    margin: 0 auto;
+}
+main{
+  padding: 30px;
+  margin:20px;
+}
+h1{
+    color:brown;
+      font-weight: normal;
+      font-family:cursive;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  h2{
+    color:darkgreen;
+      font-weight: normal;
+      font-family:serif;
+      text-decoration: darkmagenta;
+      text-transform: uppercase;
+      text-align: center;
+  }
+
+  img{
+    width: 1000px;
+max-width: 1000px;
+float:initial;
+  }
+
+  .UserInfo-name{
+    font-weight:600;
+    text-align: center;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    color: deeppink;
+  }
+
+
+  .Comment-text{
+    font-weight:900;
+    text-align: center;
+    font-family:sans-serif;
+    text-transform: uppercase;
+  }
+.formu{
+top: 70px;
+left: 70px;
+}
+#msj{
+    width:30%;
+    height: 40px;
+}
+
+#bot{
+text-align: center;
+}
+
+label{
+ color: firebrick;
+ font-family: monospace;
+ font-size: 300%;
+}
+
+#caja {
+  width: 50%;
+  float: left;
+  border: 1px solid;
+
+}
+
+#come{
+  height: 60%;
+  width: 60%;
+  
+}
+
+#com{
+
+  display: flex;
+  justify-content: space-between;
+  font-family: cursive;
+}
+img{
+    width:50%;
+    
+  }
+footer #we{
+  width:80%;
+text-align: left;
+display: flex;
+justify-content: space-between;
+}
+  footer{
+text-align: right;
+height: 120%;
+width: 120%;
+  }
+
+  @media (min-width:300px) and (max-width:800px){
+   #com img {
+    width:100px;
+     height: 100px;
+     justify-content:space-between;
+        font-size: .8rem;
+   }
+  
+}
+
